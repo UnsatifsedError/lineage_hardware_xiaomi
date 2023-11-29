@@ -7,7 +7,8 @@ soong_namespace {
 PRODUCT_PACKAGES += \
             libavservices_minijail.vendor \
             libcodec2_soft_common.vendor \
-            libsfplugin_ccodec_utils.vendor
+            libsfplugin_ccodec_utils.vendor \
+            libstagefright_foundation-v33
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
