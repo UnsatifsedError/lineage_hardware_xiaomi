@@ -13,7 +13,6 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>com.fingerprints.extension</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IFingerprintAuthenticator</name>
@@ -58,7 +57,6 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.goodix.hardware.fingerprintextension</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IGoodixBiometricsFingerprint</name>
@@ -127,7 +125,6 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.fingerprintextension</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IXiaomiFingerprint</name>
